@@ -20,11 +20,11 @@ var cycleBellSound;
 var gameOverload, gameOver;
 
 function preload() {
-  pathImg = loadImage("images/Road.png");
+  pathImg = loadImage("Road.png");
 
-  mainRacerImg1 = loadAnimation("images/mainPlayer1.png", "images/mainPlayer2.png");
+  mainRacerImg1 = loadAnimation("mainPlayer1.png", "mainPlayer2.png");
 
-  mainRacerImg2 = loadAnimation("images/mainPlayer3.png");
+  mainRacerImg2 = loadAnimation("mainPlayer3.png");
 
   oppPlayerload1 = loadImage("opponent1.png");
   oppPLayerload2 = loadImage("opponent3.png");
@@ -41,7 +41,7 @@ function preload() {
 
   gameOverload = loadImage("gameOver.png");
 
-  cycleBellSound = loadSound("sound/bell.mp3");
+  cycleBellSound = loadSound("bell.mp3");
 }
 
 function setup() {
